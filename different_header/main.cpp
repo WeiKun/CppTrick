@@ -30,5 +30,6 @@ int main()
     Object::instance.show();
     Object local;
     cout << local.member << endl;
+    local.show();
     return 0;
 }

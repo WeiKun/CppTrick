@@ -28,5 +28,7 @@ using namespace std;
 int main()
 {   
     Object::instance.show();
+    Object local;
+    cout << local.member << endl;
     return 0;
 }
